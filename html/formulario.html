@@ -1,0 +1,108 @@
+<html>
+<head>
+    <title>Formularios html</title>
+    <link href="../css/hojadeestilo.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+    <header>
+        <h1>FORMULARIOS</h1> <a href="../Index.html"><img class="icono" src="../imagenes/casa.png"></a>
+    </header>
+    <nav> <ul>
+                 <li><a href="html/act_1.html">Formatos</a></li>
+                 <li><a href="Listas.html">Listas</a> </li>
+                 <li><a href="enlaces.html">enlances</a> </li>
+                 <li><a href="17feb.html">Tablas</a></li>
+                 <li><a href="imagenes.html">Imagenes</a></li>
+                 <li><a href="audio.html">Audio</a></li>
+                 <li><a href="videos.html">Video</a></li>
+                 <li><a href="formulario.html">Formulario</a></li>
+
+        </ul></nav>
+    <main>
+        <section>
+            <h2>Formularios</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sunt, fugit assumenda deserunt ipsa! Veritatis dignissimos distinctio quam nihil repudiandae accusamus iusto, quod asperiores! Deleniti voluptate repudiandae harum, nisi quis voluptatum. Cupiditate aspernatur tenetur unde sapiente tempora ratione, eaque. Rerum error, fugit at recusandae blanditiis mollitia ex. Fuga, quam, tempora. Impedit maxime accusamus consectetur illo laudantium, tempora atque, fugit distinctio aspernatur ex! Labore voluptas sint beatae reprehenderit praesentium minus molestias, non consequuntur. Dolorem officia voluptate, quae odio quibusdam vitae quidem.</p>
+            <form action="" method="get">
+                <label form="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" value="">
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" name="contrasena">
+                <input type="submit" value="enviar">
+            </form>
+        </section>
+        <section>
+            <h2>Información</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque assumenda distinctio sapiente molestias velit consequuntur ipsum ratione! Neque iure, recusandae. Tenetur minus fuga necessitatibus cumque nihil nisi temporibus debitis repellendus nobis quod consequatur unde, culpa laborum error sed possimus blanditiis optio velit! Possimus vero dicta nulla ad, dignissimos voluptate mollitia, rerum enim consequatur fugiat debitis tempora ab quo sit quod amet maxime officiis aspernatur dolores voluptatibus autem est eius blanditiis quae. Alias officiis, quas expedita fuga architecto facere sunt vel.</p>
+            <form method="get">
+                <label for="nombre1">Nombre: </label>
+                <input type="text" id="nombre1" name="nombre1"> 
+                <label for="genero"> Genero:</label>        
+             <input type="radio" id="mas" name="genero" value="mas">
+                  <label for="mas"> M</label>
+                  <input type="radio" id="fem" name="genero" value="fem">
+                  <label for="fem"> F</label><br>
+                  
+                <label for="pais">Residencia</label>
+                 <select id="pais" name="pais"> 
+                <option value="ar">Argentina </option>
+                <option value="co">Colombia</option>
+                <option value="din">Dinamarca</option>
+                <option value="ecu">Europa</option>
+                <option value="ir">Irlanda</option>
+                <option value="mex">Mexico</option>
+                </select> <br>
+                <label for="idioma">¿Qué idioma hablas?</label>
+                <input type="checkbox" id="idioma1" name="idioma1" value="ingles">
+                <label for="idioma1">Ingles</label>
+                  <input type="checkbox" id="idioma2" name="idioma2" value="frances">
+                <label for="idioma2">Frances</label>
+                 <input type="checkbox" id="idioma3" name="idioma3" value="espanol">
+                <label for="idioma3">Español</label><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <h2>Fecha y hora</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus adipisci illum hic enim, est numquam impedit harum facere modi dolore, consectetur neque sequi a, mollitia dicta assumenda fugiat ullam non voluptas repellat! Inventore, voluptate excepturi veniam nemo cum, veritatis dolorum aspernatur, dolore quibusdam accusantium, quis voluptatem odio molestias libero omnis totam quidem mollitia! A suscipit vero similique illo quasi non molestias, mollitia sunt aut nihil ducimus eaque ipsa, repudiandae tempora voluptatem quam quia. Quod voluptate, labore doloremque facere eius ea!</p>
+            <form>
+               <label for="nombre1">Nombre: </label>
+                <input type="text" id="nombre1" name="nombre1"> 
+                <label for="fecha">Fecha de la cita:</label>
+                <input type="date" name="fecha" id="fecha" value="nacimiento">
+                <br><br><label for="hora">Hora de la cita:</label>
+                <input type="time" name="hora" id="hora">
+                <br><br>
+                <textarea id="caja" name="comentario" rows="12" cols="50"> Deja un comentario</textarea>
+                <input type="submit" value="Registrar"><br>
+                <input type="reset" value="Eliminar">
+                
+            </form>
+        </section>
+        <section>
+            <h2>Registro</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo fuga placeat doloremque eum animi ea quae aperiam cum ratione, recusandae, deleniti soluta modi maiores debitis enim aliquam, assumenda, suscipit totam eaque dolore sed. Velit, vero! Consectetur pariatur itaque fugit tempore error, nulla quisquam laborum possimus labore quis. At minus dicta ab. Libero, accusamus voluptatem nostrum autem quia corporis quibusdam perferendis explicabo earum provident dolorem. Adipisci eius eum ex, dolorum saepe possimus rerum illum, quo in qui iste, similique consequatur labore!</p>
+            <form>    
+                <label for="nombre1">Nombre: </label>
+                <input type="text" id="nombre1" name="nombre1"> <br>
+                <label for="curp">CURP:</label>
+                <input type="text" id="curp" name="curp" required  maxlength="18"> <br><br>
+                <label for="tele">Teléfono</label>
+                <input type="tel" id="tele" name="tele" required  maxlength="10" ><br>            
+                                
+
+                <label id="mail">Correo electronico:</label>
+                <input type="email" name="mail" id="mail" placeholder="ej.rosa@gmail.com"><br>
+                <label for="file">Subir archivo:</label>
+                <input type="file" id="file" name="file">
+                <br><br>
+                <input type="submit" value="Registrar">
+        
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+            <h6>Elaborado por Ivonne Cortes Sarmiento</h6>
+        </footer>
+</body>
+</html>
